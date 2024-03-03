@@ -1,4 +1,4 @@
-const {object}  = require('../models/models')
+const {object}  = require('../model/models')
 const ApiError = require('../error/ApiError')
 
 class objectController{
