@@ -1,4 +1,4 @@
-const {kcp}  = require('../models/models')
+const {kcp}  = require('../model/models')
 const ApiError = require('../error/ApiError')
 
 class kcpController{
