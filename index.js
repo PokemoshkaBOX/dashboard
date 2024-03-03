@@ -3,7 +3,7 @@ require('dotenv').config()// испорт файла .env
 const express = require('express') //импортируем express
 
 const sequelize = require('./db.js')//импортируем нашу модель дб
-const models = require('./models/models')
+const models = require('./model/models')
 const app = express()
 const cors = require('cors')
 const router = require('./routes/indexRouter')
