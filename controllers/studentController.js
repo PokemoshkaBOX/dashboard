@@ -1,4 +1,4 @@
-const {student}  = require('../models/models')
+const {student}  = require('../model/models')
 const ApiError = require('../error/ApiError')
 
 class studentController{
