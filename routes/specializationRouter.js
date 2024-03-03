@@ -1,6 +1,6 @@
 const Router = require('express')
 const router = new Router()
-const specializationController = require('../Controllers/specializationController')//импортируем контроллер
+const specializationController = require('../controllers/specializationController')//импортируем контроллер
 
 router.get('/', specializationController.getAll)
 
