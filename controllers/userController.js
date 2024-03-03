@@ -1,7 +1,7 @@
 const ApiError = require('../error/ApiError')
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
-const {user} = require('../models/models')
+const {user} = require('../model/models')
 require('dotenv').config()
 
 const generateJwt = (id, email, role) => {
