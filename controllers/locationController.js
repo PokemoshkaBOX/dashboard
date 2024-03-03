@@ -1,4 +1,4 @@
-const {location}  = require('../models/models')
+const {location}  = require('../model/models')
 const ApiError = require('../error/ApiError')
 
 class locationController{
