@@ -1,6 +1,6 @@
 const Router = require('express')
 const router = new Router()
-const locationController = require('../Controllers/locationController')//импортируем контроллер
+const locationController = require('../controllers/locationController')//импортируем контроллер
 
 router.get('/', locationController.getAll)
 
