@@ -1,4 +1,4 @@
-const {scores}  = require('../models/models')
+const {scores}  = require('../model/models')
 const ApiError = require('../error/ApiError')
 
 class scoresController{
