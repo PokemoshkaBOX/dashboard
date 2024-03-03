@@ -1,4 +1,4 @@
-const {specialization}  = require('../models/models')
+const {specialization}  = require('../model/models')
 const ApiError = require('../error/ApiError')
 
 class specializationController{
