@@ -6,7 +6,7 @@ const sequelize = require('./db.js')//импортируем нашу модел
 const models = require('./models/models')
 const app = express()
 const cors = require('cors')
-const router = require('./routes/index')
+const router = require('./routes/indexRouter')
 const errorHandler = require("./middleware/ErrorHandlingMiddleware")
 
 const PORT = process.env.PORT || 5000 //порт на котором будет запускаться сервер
