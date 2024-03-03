@@ -1,4 +1,4 @@
-const {statement}  = require('../models/models')
+const {statement}  = require('../model/models')
 const ApiError = require('../error/ApiError')
 
 class statementController{
