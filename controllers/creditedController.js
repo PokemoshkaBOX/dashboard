@@ -1,4 +1,4 @@
-const {credited}  = require('../models/models')
+const {credited}  = require('../model/models')
 const ApiError = require('../error/ApiError')
 
 class creditedController{
